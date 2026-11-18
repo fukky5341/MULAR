@@ -246,47 +246,47 @@ Run `uv run python result_analysis/generate_materials.py --original` to reproduc
 ```
 result_analysis/original_materials/
 RQ1/
- ├─ 'success_count_nonzero_mnistf1.csv'
- ├─ 'success_count_nonzero_mnistf2.csv'
- ├─ 'success_count_all_mnistf1.csv'
- ├─ 'success_count_all_mnistf2.csv'
- ├─ 'success_count_all_cifar.csv'
- ├─ 'success_count_all_gtsrb.csv'
- ├─ 'prepared_outcomes_cifar.csv'
- ├─ 'prepared_outcomes_gtsrb.csv'
- ├─ 'pairwise_success_count_mnistf1.csv'
+ ├─ 'success_count_nonzero_mnistf1.csv' (Table 1 a)
+ ├─ 'success_count_nonzero_mnistf2.csv' (Table 1 b)
+ ├─ 'success_count_all_mnistf1.csv' (Table 2 a)
+ ├─ 'success_count_all_mnistf2.csv' (Table 2 b)
+ ├─ 'success_count_all_cifar.csv' (Table 2 c)
+ ├─ 'success_count_all_gtsrb.csv' (Table 2 d)
+ ├─ 'prepared_outcomes_cifar.csv' (Table 3 a)
+ ├─ 'prepared_outcomes_gtsrb.csv' (Table 3 b)
+ ├─ 'pairwise_success_count_mnistf1.csv' (Table 9)
 RQ2/
- ├─ 'repair_acc_drop_nonzero_mnistf1.png'
- ├─ 'repair_acc_drop_nonzero_mnistf2.png'
- ├─ 'repair_acc_drop_all_mnistf1.png'
- ├─ 'repair_acc_drop_all_mnistf2.png'
- ├─ 'repair_acc_drop_all_cifar.png'
- ├─ 'repair_acc_drop_all_gtsrb.png'
- ├─ 'pairwise_repair_acc_drop_all_mular_vs_prepared_mnistf1.png'
- ├─ 'pairwise_repair_acc_drop_all_mular_vs_prepared_mnistf2.png'
+ ├─ 'repair_acc_drop_nonzero_mnistf1.png' (Figure 4 a)
+ ├─ 'repair_acc_drop_nonzero_mnistf2.png' (Figure 4 b)
+ ├─ 'repair_acc_drop_all_mnistf1.png' (Figure 4 c)
+ ├─ 'repair_acc_drop_all_mnistf2.png' (Figure 4 d)
+ ├─ 'repair_acc_drop_all_cifar.png' (Figure 5 a)
+ ├─ 'repair_acc_drop_all_gtsrb.png' (Figure 5 b)
+ ├─ 'pairwise_repair_acc_drop_all_mular_vs_prepared_mnistf1.png' (Figure 6 a)
+ ├─ 'pairwise_repair_acc_drop_all_mular_vs_prepared_mnistf2.png' (Figure 6 b)
 RQ3/
- ├─ 'repair_time_nonzero_mnistf1.png'
- ├─ 'repair_time_nonzero_mnistf2.png'
- ├─ 'repair_time_all_mnistf1.png'
- ├─ 'repair_time_all_mnistf2.png'
- ├─ 'repair_time_all_cifar.png'
- ├─ 'repair_time_all_gtsrb.png'
+ ├─ 'repair_time_nonzero_mnistf1.png' (Figure 7 a)
+ ├─ 'repair_time_nonzero_mnistf2.png' (Figure 7 b)
+ ├─ 'repair_time_all_mnistf1.png' (Figure 8 a)
+ ├─ 'repair_time_all_mnistf2.png' (Figure 8 b)
+ ├─ 'repair_time_all_cifar.png' (Figure 8 c)
+ ├─ 'repair_time_all_gtsrb.png' (Figure 8 d)
 RQ4/
- ├─ 'pairwise_success_count_diff_layers_mnistf1.csv'
- ├─ 'pairwise_success_count_diff_layers_mnistf2.csv'
- ├─ 'pairwise_success_count_diff_layers_cifar.csv'
- ├─ 'pairwise_success_count_diff_layers_gtsrb.csv'
- ├─ 'pairwise_repair_acc_drop_diff_layers_mnistf1.csv'
- ├─ 'pairwise_repair_acc_drop_diff_layers_mnistf2.csv'
- ├─ 'pairwise_repair_acc_drop_diff_layers_cifar.csv'
- ├─ 'pairwise_repair_acc_drop_diff_layers_gtsrb.csv'
+ ├─ 'pairwise_success_count_diff_layers_mnistf1.csv' (Table 4 a)
+ ├─ 'pairwise_success_count_diff_layers_mnistf2.csv' (Table 10 a)
+ ├─ 'pairwise_success_count_diff_layers_cifar.csv' (Table 10 b)
+ ├─ 'pairwise_success_count_diff_layers_gtsrb.csv' (Table 4 b)
+ ├─ 'pairwise_repair_acc_drop_diff_layers_mnistf1.csv' (Table 5 a)
+ ├─ 'pairwise_repair_acc_drop_diff_layers_mnistf2.csv' (Table 11 a)
+ ├─ 'pairwise_repair_acc_drop_diff_layers_cifar.csv' (Table 11 b)
+ ├─ 'pairwise_repair_acc_drop_diff_layers_gtsrb.csv' (Table 5 b)
 RQ5/
- ├─ 'success_count_fault_localization_mnistf1.csv'
- ├─ 'success_count_fault_localization_cifar.csv'
- ├─ 'repair_acc_drop_fault_localization_mnistf1.png'
- ├─ 'repair_acc_drop_fault_localization_cifar.png'
- ├─ 'repair_time_fault_localization_mnistf1.png'
- ├─ 'repair_time_fault_localization_cifar.png'
+ ├─ 'success_count_fault_localization_mnistf1.csv' (Table 6 a)
+ ├─ 'success_count_fault_localization_cifar.csv' (Table 6 b)
+ ├─ 'repair_acc_drop_fault_localization_mnistf1.png' (Figure 9 a)
+ ├─ 'repair_acc_drop_fault_localization_cifar.png' (Figure 9 b)
+ ├─ 'repair_time_fault_localization_mnistf1.png' (Figure 10 a)
+ ├─ 'repair_time_fault_localization_cifar.png' (Figure 10 b)
 ```
 
 
