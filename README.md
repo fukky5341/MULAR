@@ -15,7 +15,7 @@ MULti-layer and ARbitrary-layer repair
 ## Installation Guide
 ### 1. Clone the repository
 
-[repository](https://anonymous.4open.science/r/Provable-Repair-2682) is in here. Clone it to your local machine.
+[repository](https://anonymous.4open.science/r/MULAR/) is in here. Clone it to your local machine.
 
 
 ### 2. Install Gurobi (solver)
@@ -243,49 +243,51 @@ We provide the materials for reproducing the experimental results in the paper. 
 
 Run `uv run python result_analysis/generate_materials.py --original` to reproduce the same artifact set separately in `result_analysis/original_materials`.
 
-- RQ1
-  - 'success_count_nonzero_mnistf1.csv'
-  - 'success_count_nonzero_mnistf2.csv'
-  - 'success_count_all_mnistf1.csv'
-  - 'success_count_all_mnistf2.csv'
-  - 'success_count_all_cifar.csv'
-  - 'success_count_all_gtsrb.csv'
-  - 'prepared_outcomes_cifar.csv'
-  - 'prepared_outcomes_gtsrb.csv'
-  - 'pairwise_success_count_mnistf1.csv'
-- RQ2
-  - 'repair_acc_drop_nonzero_mnistf1.png'
-  - 'repair_acc_drop_nonzero_mnistf2.png'
-  - 'repair_acc_drop_all_mnistf1.png'
-  - 'repair_acc_drop_all_mnistf2.png'
-  - 'repair_acc_drop_all_cifar.png'
-  - 'repair_acc_drop_all_gtsrb.png'
-  - 'pairwise_repair_acc_drop_all_mular_vs_prepared_mnistf1.png'
-  - 'pairwise_repair_acc_drop_all_mular_vs_prepared_mnistf2.png'
-- RQ3
-  - 'repair_time_nonzero_mnistf1.png'
-  - 'repair_time_nonzero_mnistf2.png'
-  - 'repair_time_all_mnistf1.png'
-  - 'repair_time_all_mnistf2.png'
-  - 'repair_time_all_cifar.png'
-  - 'repair_time_all_gtsrb.png'
-- RQ4
-  - 'pairwise_success_count_diff_layers_mnistf1.csv'
-  - 'pairwise_success_count_diff_layers_mnistf2.csv'
-  - 'pairwise_success_count_diff_layers_cifar.csv'
-  - 'pairwise_success_count_diff_layers_gtsrb.csv'
-  - 'pairwise_repair_acc_drop_diff_layers_mnistf1.csv'
-  - 'pairwise_repair_acc_drop_diff_layers_mnistf2.csv'
-  - 'pairwise_repair_acc_drop_diff_layers_cifar.csv'
-  - 'pairwise_repair_acc_drop_diff_layers_gtsrb.csv'
-- RQ5
-  - 'success_count_fault_localization_mnistf1.csv'
-  - 'success_count_fault_localization_cifar.csv'
-  - 'repair_acc_drop_fault_localization_mnistf1.png'
-  - 'repair_acc_drop_fault_localization_cifar.png'
-  - 'repair_time_fault_localization_mnistf1.png'
-  - 'repair_time_fault_localization_cifar.png'
-
+```
+result_analysis/original_materials/
+RQ1/
+ ├─ 'success_count_nonzero_mnistf1.csv'
+ ├─ 'success_count_nonzero_mnistf2.csv'
+ ├─ 'success_count_all_mnistf1.csv'
+ ├─ 'success_count_all_mnistf2.csv'
+ ├─ 'success_count_all_cifar.csv'
+ ├─ 'success_count_all_gtsrb.csv'
+ ├─ 'prepared_outcomes_cifar.csv'
+ ├─ 'prepared_outcomes_gtsrb.csv'
+ ├─ 'pairwise_success_count_mnistf1.csv'
+RQ2/
+ ├─ 'repair_acc_drop_nonzero_mnistf1.png'
+ ├─ 'repair_acc_drop_nonzero_mnistf2.png'
+ ├─ 'repair_acc_drop_all_mnistf1.png'
+ ├─ 'repair_acc_drop_all_mnistf2.png'
+ ├─ 'repair_acc_drop_all_cifar.png'
+ ├─ 'repair_acc_drop_all_gtsrb.png'
+ ├─ 'pairwise_repair_acc_drop_all_mular_vs_prepared_mnistf1.png'
+ ├─ 'pairwise_repair_acc_drop_all_mular_vs_prepared_mnistf2.png'
+RQ3/
+ ├─ 'repair_time_nonzero_mnistf1.png'
+ ├─ 'repair_time_nonzero_mnistf2.png'
+ ├─ 'repair_time_all_mnistf1.png'
+ ├─ 'repair_time_all_mnistf2.png'
+ ├─ 'repair_time_all_cifar.png'
+ ├─ 'repair_time_all_gtsrb.png'
+RQ4/
+ ├─ 'pairwise_success_count_diff_layers_mnistf1.csv'
+ ├─ 'pairwise_success_count_diff_layers_mnistf2.csv'
+ ├─ 'pairwise_success_count_diff_layers_cifar.csv'
+ ├─ 'pairwise_success_count_diff_layers_gtsrb.csv'
+ ├─ 'pairwise_repair_acc_drop_diff_layers_mnistf1.csv'
+ ├─ 'pairwise_repair_acc_drop_diff_layers_mnistf2.csv'
+ ├─ 'pairwise_repair_acc_drop_diff_layers_cifar.csv'
+ ├─ 'pairwise_repair_acc_drop_diff_layers_gtsrb.csv'
+RQ5/
+ ├─ 'success_count_fault_localization_mnistf1.csv'
+ ├─ 'success_count_fault_localization_cifar.csv'
+ ├─ 'repair_acc_drop_fault_localization_mnistf1.png'
+ ├─ 'repair_acc_drop_fault_localization_cifar.png'
+ ├─ 'repair_time_fault_localization_mnistf1.png'
+ ├─ 'repair_time_fault_localization_cifar.png'
+```
 
 
 ## Project Structure
