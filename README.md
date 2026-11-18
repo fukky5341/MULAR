@@ -15,7 +15,7 @@ MULti-layer and ARbitrary-layer repair
 ## Installation Guide
 ### 1. Clone the repository
 
-[repository](https://anonymous.4open.science/r/MULAR/) is in here. Clone it to your local machine.
+[repository](https://anonymous.4open.science/r/MULAR/README.md) is in here. Clone it to your local machine.
 
 
 ### 2. Install Gurobi (solver)
